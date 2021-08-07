@@ -1,0 +1,65 @@
+@import "../variables/variables";
+
+.container-start {
+    display: flex;
+    justify-content: center;
+
+    .start {
+        width: 50%;
+        margin-left: 35vw;
+        margin-top: 15vh;
+
+        h1 {
+            text-align: center;
+            font-size: 2.1em;
+            font-weight: normal;
+            font-family: $main-font;
+        }
+    }
+    .decor {
+        display: flex;
+        justify-content: center;
+        margin: 1em 0;
+
+        div {
+            width: 250px;
+            height: 50px;
+            background: transparent url(../../assets/Decoration.svg) no-repeat padding-box;
+        }
+    }
+
+    .links {
+        display: flex;
+        justify-content: center;
+        margin: 1em 0;
+
+        div {
+            width: 250px;
+            margin: 0 1em;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1em ;
+        }
+
+        a {
+            font-size: 2em;
+            text-align: center;
+            text-decoration: none;
+            font-family: $main-font;
+            color: black;
+            font-weight: 300;
+            text-transform: uppercase;
+        }
+    }
+
+    .picture {
+        width: 78vw;
+        height: 100vh;
+        position: absolute;
+        background: transparent url(../../assets/Home-Hero-Image.jpg);
+        top: 0;
+        left: -500px;
+    }
+}

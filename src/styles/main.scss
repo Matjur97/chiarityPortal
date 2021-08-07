@@ -1,9 +1,6 @@
+@import './_reset/reset';
 @import './variables/variables.scss';
 @import './elements/home.scss';
 @import './elements/homeHeader';
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import './elements/homeHello';
+@import './elements/homeThreeColumns';

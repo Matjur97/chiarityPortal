@@ -1,10 +1,15 @@
 import React from 'react';
-import HomeHeader from './HomeHeader';
+import HomeStartPage from './HomeStartPage';
+import HomeThreeColumns from './HomeThreeColumns';
+
 import '../styles/main.scss';
 
 const Home = () => {
     return (
-        <HomeHeader />
+        <>
+        <HomeStartPage />
+        <HomeThreeColumns />
+        </>
     )
 }
 

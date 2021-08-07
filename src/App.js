@@ -1,12 +1,22 @@
 import React from 'react';
-import './styles/main.scss';
-
+import ReactDOM from 'react-dom';
+import {
+  HashRouter,
+  Route,
+  Link,
+  Switch,
+  NavLink,
+} from 'react-router-dom';
 import Home from './components/Home';
 
+import './styles/main.scss';
+
 function App() {
-  return (
-    <Home />
-  );
+  return <HashRouter>
+    <>
+    <Route exact  patch="/" component={Home} />
+    </>
+  </HashRouter>
 }
 
 export default App;
