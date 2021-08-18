@@ -1,0 +1,35 @@
+.columns {
+    width: 100vw;
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-image: url(../../../assets/3-Columns-Background.png);
+    .container {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .col {
+        padding: 3em 3em;
+    }
+    h1 {
+        font: 300 5em $main-font;
+        color: $col-color;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+    h2 {
+        font: 1.5em $main-font;
+        color: $col-color;
+        text-align: center;
+        text-transform: uppercase;
+        padding-bottom: 1em;
+    }
+    p {
+        font: 1em $main-font;
+        color: $col-color;
+        text-align: center;
+        padding-bottom: 2em;
+    }
+}

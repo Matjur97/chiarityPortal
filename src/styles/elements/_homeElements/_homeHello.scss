@@ -1,5 +1,3 @@
-@import "../variables/variables";
-
 .container-start {
     display: flex;
     justify-content: center;
@@ -24,7 +22,7 @@
         div {
             width: 250px;
             height: 50px;
-            background: transparent url(../../assets/Decoration.svg) no-repeat padding-box;
+            background: transparent url(../../../assets/Decoration.svg) no-repeat padding-box;
         }
     }
 
@@ -58,7 +56,7 @@
         width: 78vw;
         height: 100vh;
         position: absolute;
-        background: transparent url(../../assets/Home-Hero-Image.jpg);
+        background: transparent url(../../../assets/Home-Hero-Image.jpg);
         top: 0;
         left: -500px;
     }

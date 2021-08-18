@@ -1,0 +1,50 @@
+.about-us{
+    width: 100vw;
+    background-color: $steps-bgd;
+    display: flex;
+    flex-direction: row;
+    .about{
+        max-width: 50vw;
+        height: 80vh;
+    }
+    .description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h2{
+            font: normal 2.5rem $main-font;
+        }
+        .deco{
+            width: 250px;
+            height: 40px;
+            margin: 2em 0;
+            background: url(../../../assets/Decoration.svg) no-repeat;
+        }
+        .paragraph{
+            max-width: 60%;
+            p{
+                text-align: center;
+                font: normal 1.5em $main-font;
+                line-height: 1.5em;
+            }
+        }
+        .signature{
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            padding-top: 4em;
+            padding-right: 12em;
+            .signature-image{
+                width: 210px;
+                height: 150px;
+                background: transparent url(../../../assets/Signature.svg) no-repeat;
+            }
+        }
+    }
+    .picture{
+        background: transparent url(../../../assets/People.jpg);
+        background-size: cover;
+        width: 100%;
+    }
+}

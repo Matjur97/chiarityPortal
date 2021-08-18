@@ -1,6 +1,6 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
-import '../styles/main.scss'
+import { Link } from 'react-router-dom';
+import '../../styles/main.scss'
 
 const HomeHeader = () => {
     return (
@@ -8,8 +8,16 @@ const HomeHeader = () => {
             <div className="container-header">
                 <div className="login">
                     <ul>
-                        <li><Link to="/" className="login-link"><span>Zaloguj</span></Link></li>
-                        <li><Link to="/" className="login-link"><span>Załóż konto</span></Link></li>
+                        <li>
+                            <Link to="/Login" className="login-link">
+                                <span>Zaloguj</span>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/Register" className="login-link">
+                                <span>Załóż konto</span>
+                            </Link>
+                        </li>
                     </ul>
                 </div>
                 <div className="menu">

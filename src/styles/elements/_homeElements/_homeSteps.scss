@@ -1,0 +1,86 @@
+.steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    padding-bottom: 5rem;
+    .title-steps {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1 {
+            font: normal 3em $main-font;
+            padding-top: 2rem;
+        }
+        .deco {
+            width: 300px;
+            height: 50px;
+            background: center url(../../../assets/Decoration.svg) no-repeat;
+            padding-top: 2rem;
+        }
+    }
+    .container-steps {
+        width: 100vw;
+        background-color: $steps-bgd;
+        display: flex;
+        justify-content: center;
+    }
+    .content {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 4rem 0;
+    }
+    .col {
+        width: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .image {
+            width: 75px;
+            height: 100px;
+        }
+        .shirt {
+            background: center url(../../../assets/Icon-1.svg) no-repeat;
+        }
+        .bag {
+            background: center url(../../../assets/Icon-2.svg) no-repeat;
+        }
+        .loupe {
+            background: center url(../../../assets/Icon-3.svg) no-repeat;
+        }
+        .arrows {
+            background: center url(../../../assets/Icon-4.svg) no-repeat;
+        }
+        .line {
+            width: 75px;
+            border: 1px solid $dark-grey;
+            margin: 1em;
+        }
+        h3 {
+            font: normal 1.1em $main-font;
+            text-align: center;
+        }
+        p {
+            text-align: center;
+            font: normal 1em $main-font;
+        }
+    }
+    .button{
+        border: 1px solid black;
+        margin: 2rem 0;
+        a{
+            text-decoration: none;
+            font: 300 2em $main-font;
+            color: black;
+            text-transform: uppercase;
+            padding: 0.7rem 5rem;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

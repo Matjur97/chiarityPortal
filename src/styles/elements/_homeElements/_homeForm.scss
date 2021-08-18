@@ -1,0 +1,85 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    height: 95vh;
+    .picture {
+        width: 100%;
+        height: 100%;
+        background: transparent url(../../../assets/Background-Contact-Form.jpg) no-repeat;
+        background-size: contain;
+        .transp {
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            opacity: 0.75;
+            background-size: contain;
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+    .empty {
+        width: 50%;
+        height: 100%;
+    }
+    .form-container {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h1 {
+            font: normal 2em $main-font;
+        }
+        .deco {
+            background: transparent url(../../../assets/Decoration.svg) no-repeat;
+            width: 250px;
+            height: 40px;
+            margin: 2em 0;
+        }
+    }
+    .contact {
+        display: flex;
+        margin-bottom: 2em;
+        .contact-input {
+            display: flex;
+            flex-direction: column;
+            margin: 0 1em;
+            width: 200px;
+        }
+        label {
+            padding-bottom: 0.6em;
+        }
+        input {
+            border: none;
+            border-bottom: 1px solid black;
+            height: 1.5em;
+            font-size: 1.1em;
+        }
+    }
+    .textarea {
+        display: flex;
+        flex-direction: column;
+        padding: 0 1em;
+        label {
+            padding-bottom: 0.6em;
+        }
+        textarea{
+            font-size: 1.1em;
+            border: none;
+            border-bottom: 1px solid black;
+        }
+    }
+    .send{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        margin: 1em 0;
+        input{
+            font-size: 0.9em;
+            font-weight: 300;
+            padding: 0.8em 2.6em;
+        }
+    }
+}

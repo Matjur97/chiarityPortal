@@ -1,0 +1,29 @@
+.logout-page{
+    width: 100vw;
+    height: 100vh;
+    .logout-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20vh;
+    }
+    h1 {
+        font-size: 2em;
+        width: 350px;
+        text-align: center;
+    }
+    .deco {
+        background: transparent url(../../../assets/Decoration.svg) no-repeat;
+        width: 250px;
+        height: 40px;
+        margin: 2em 0;
+    }
+    .to-home {
+        text-decoration: none;
+        color: black;
+        font-size: 0.8em;
+        font-weight: 400;
+        border: 1px solid black;
+        padding: 1em 2em;
+    }
+}

@@ -1,0 +1,97 @@
+.pagination {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+    .pagination-container {
+        max-width: 70%;
+        padding: 4em 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1 {
+            font: normal 2.2em $main-font;
+        }
+
+        .deco {
+            background: transparent url(../../../assets/Decoration.svg) no-repeat;
+            width: 250px;
+            height: 40px;
+            margin: 1.5em;
+        }
+
+        .content-buttons {
+            display: flex;
+            flex-direction: row;
+            
+            button {
+                border: none;
+                margin: 2em 2em;
+                display: flex;
+                align-items: center;
+                background-color: white;
+                p{
+                    color: black;
+                    font: 400 1.2em $main-font;
+                    padding: 1em 1.4em;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+        }
+        .active {
+            border: 1px solid black;
+        }
+        .paragraph {
+            width: 30vw;
+            p{
+                text-align: center;
+            }
+        }
+    }
+    .pagination-content{
+        width: 70vw;
+        .post {
+            width: 100%;
+            .post-content{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 2em 0;
+                h2{
+                    font-size: 1.4em;
+                    font-weight: 300;
+                    margin-bottom: 0.3em;
+                }
+                h3{
+                    font-size: 0.8em;
+                    font-weight: 300;
+                }
+                h4{
+                    font-size: 0.7em;
+                    font-weight: 300;
+                }
+            }
+        }
+        .paginationButtons{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: 2em;
+            a{
+                padding: 0.6em 0.8em;
+            }
+            .paginationActive {
+                border: 1px solid black;
+                padding: 0.6em 0;
+            }
+        }
+    }
+    .hidden {
+        display: none;
+    }
+}

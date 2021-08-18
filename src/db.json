@@ -1,0 +1,179 @@
+{
+  "users": [],
+  "messages": [
+    {
+      "name": "asd",
+      "email": "",
+      "message": "asadsadsadsa",
+      "id": 1
+    },
+    {
+      "name": "test",
+      "email": "",
+      "message": "testtesttest",
+      "id": 2
+    },
+    {
+      "name": "ssss",
+      "email": "",
+      "message": "sssssssssssss",
+      "id": 3
+    },
+    {
+      "name": "dssdsd",
+      "email": "",
+      "message": "dsdsdssdsdsdsd",
+      "id": 4
+    },
+    {
+      "name": "sdsdsdsd",
+      "email": "",
+      "message": "sdsdsdsdsdssds",
+      "id": 5
+    },
+    {
+      "name": "sdsdds",
+      "email": "",
+      "message": "dsdsdsdsdsds",
+      "id": 6
+    },
+    {
+      "name": "sdds",
+      "email": "",
+      "message": "sdsdsdsdsdsdsd",
+      "id": 7
+    },
+    {
+      "name": "adasdsads",
+      "email": "",
+      "message": "dasdsadasdsad",
+      "id": 8
+    },
+    {
+      "name": "sasasa",
+      "email": "",
+      "message": "sasasasasasa",
+      "id": 9
+    },
+    {
+      "name": "sdsds",
+      "email": "",
+      "message": "sddsdsdssdsd",
+      "id": 10
+    },
+    {
+      "name": "eeee",
+      "email": "e22222@w222.mw",
+      "message": "erwerewrerwerwerwerewrer",
+      "id": 11
+    }
+  ],
+  "foundations": [
+      {
+          "name": "Dbam o zdrowie",
+          "mission": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
+          "items": "ubrania, jedzenie, sprzęt AGD, meble, zabawki",
+          "id": 1
+      },
+      {
+        "name": "Dla dzieci",
+        "mission": "Pomoc dzieciom z ubogich rodzin.",
+        "items": "ubrania, meble, zabawki",
+        "id": 2
+    },
+    {
+        "name": "Bez domu",
+        "mission": "Pomoc dla osób nieposiadających miejsca zamieszkania.",
+        "items": "ubrania, jedzenie, ciepłe koce",
+        "id": 3
+    },
+    {
+        "name": "Twoje życie",
+        "mission": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
+        "items": "ubrania, jedzenie, sprzęt AGD, meble, zabawki",
+        "id": 4
+    },
+    {
+        "name": "For Kids",
+        "mission": "Pomoc dzieciom z ubogich rodzin.",
+        "items": "ubrania, meble, zabawki",
+        "id": 5
+    },
+    {
+        "name": "Znajdź dom",
+        "mission": "Pomoc dla osób nieposiadających miejsca zamieszkania.",
+        "items": "ubrania, jedzenie, ciepłe koce",
+        "id": 6
+    },
+    {
+        "name": "Your Live",
+        "mission": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
+        "items": "ubrania, jedzenie, sprzęt AGD, meble, zabawki",
+        "id": 7
+    },
+    {
+        "name": "Kinder",
+        "mission": "Pomoc dzieciom z ubogich rodzin.",
+        "items": "ubrania, meble, zabawki",
+        "id": 8
+    },
+    {
+        "name": "Home for You",
+        "mission": "Pomoc dla osób nieposiadających miejsca zamieszkania.",
+        "items": "ubrania, jedzenie, ciepłe koce",
+        "id": 9
+    }
+  ],
+  "organizations": [
+      {
+          "name": "Lorem Ipsum 1",
+          "mission": "Sint aute reprehenderit duis in laboris.",
+          "items": "sample, sample, sample",
+          "id": 1
+      },
+      {
+        "name": "Lorem Ipsum 2",
+        "mission": "Sint aute reprehenderit duis in laboris.",
+        "items": "sample, sample, sample",
+        "id": 2
+    },
+    {
+        "name": "Lorem Ipsum 3",
+        "mission": "Sint aute reprehenderit duis in laboris.",
+        "items": "sample, sample, sample",
+        "id": 3
+    },
+    {
+        "name": "Lorem Ipsum 4",
+        "mission": "Sint aute reprehenderit duis in laboris.",
+        "items": "sample, sample, sample",
+        "id": 4
+    },
+    {
+        "name": "Lorem Ipsum 5",
+        "mission": "Sint aute reprehenderit duis in laboris.",
+        "items": "sample, sample, sample",
+        "id": 5
+    }
+  ],
+  "local":[
+    {
+        "name": "Local 1",
+        "mission": "Sint aute reprehenderit duis in laboris.",
+        "items": "sample, sample, sample",
+        "id": 1
+    },
+    {
+      "name": "Local 2",
+      "mission": "Sint aute reprehenderit duis in laboris.",
+      "items": "sample, sample, sample",
+      "id": 2
+  },
+  {
+      "name": "Local 3",
+      "mission": "Sint aute reprehenderit duis in laboris.",
+      "items": "sample, sample, sample",
+      "id": 3
+  }
+  ]
+}

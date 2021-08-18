@@ -1,0 +1,26 @@
+@import '../variables/variables.scss';
+
+.err-txt{
+    font-size: 0.8em;
+    font-weight: normal;
+    color: red;
+    padding-top: 0.5em;
+}
+
+.err{
+    padding-top: 0.5em;
+    font-size: 0.8em;
+    color: red;
+}
+#err-border{
+    border-bottom: 1px solid red;
+}
+.succes-send{
+    width: 250px;
+    margin-bottom: 2em;
+    p{
+        text-align: center;
+        color: green;
+        font-weight: bold;
+    }
+}

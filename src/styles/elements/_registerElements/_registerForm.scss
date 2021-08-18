@@ -1,0 +1,68 @@
+.register-page{
+    width: 100vw;
+    height: 100vh;
+    .register-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20vh;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    .deco {
+        background: transparent url(../../../assets/Decoration.svg) no-repeat;
+        width: 250px;
+        height: 40px;
+        margin: 2em 0;
+    }
+    .form-container {
+        background-color: $steps-bgd;
+        width: 22vw;
+        display: flex;
+        justify-content: center;
+        form{
+            padding-bottom: 2em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .inputs{
+                display: flex;
+                flex-direction: column;
+                width: 15vw;
+                label {
+                    font-size: 0.9em;
+                    padding: 0.8em 0;
+                    margin-top: 2em;
+                }
+                input {
+                    font-size: 1.1em;
+                    border: none;
+                    border-bottom: 1px solid black;
+                    &.err{
+                        border-bottom: 1px solid red;
+                    }
+                }
+            }
+        }
+    }
+    .buttons {
+        width: 22vw;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 3em;
+        .button{
+            display: flex;
+            input {
+                border: 1px solid black;
+            }
+            .butt{
+                text-decoration: none;
+                color: black;
+                font-weight: 300;
+                font-size: 0.8em;
+                padding: 1em 2em;
+            }
+        }
+    }
+}
